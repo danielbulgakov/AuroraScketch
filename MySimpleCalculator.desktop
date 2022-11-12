@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Icon=MySimpleCalculator
+Name=MySimpleCalculator
+Exec=/usr/bin/sailjail -p MySimpleCalculator.desktop /usr/bin/MySimpleCalculator
+# translation example:
+# your app name in German locale (de)
+#
+# Remember to comment out the following line, if you do not want to use
+# a different app name in German locale (de).
+Name[de]=MySimpleCalculator
+
+[X-Sailjail]
+Permissions=Audio;Calendar;Camera;Contacts;Documents;Downloads;Email;Internet;Messages;Microphone;Music;Phone;Pictures;Videos
+OrganizationName=ru.test
+ApplicationName=MySimpleCalculator
